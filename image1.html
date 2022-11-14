@@ -7,28 +7,29 @@
     <title>Document</title>
     
     <style>
+         .imge{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+        }
         img{
             height: 200px;
-            width: calc(40%-20%);
+            width: calc(30%-20%);
             background-color: aqua;
             border-radius: 30px;
             margin: 5px;
         }
-        div{
-            display: flex;
-        }
-        @media only screen  and (min-width:900px){
-        .img{
+        @media only screen  and (min-width:600px){
+        .card{
             width: calc(20%-15%); 
         }
 
       }
-      @media only screen and (min-width:600px) {
-        .img{
+      @media only screen and (min-width:300px) {
+        .imge{
             width: calc(30%-20%);     
         }
       }
-      .card{
+      .imge{
         display: flex;
         flex-wrap: wrap;
       }
@@ -36,38 +37,56 @@
 </head>
 <body>
     <div class="card">
+        <div class="imge">
             <img src="./IMG_20221009_161608.jpg" class="card-img">
             <img src="./IMG_20221009_175021.jpg" class="card img">
             <img src="./IMG_20221009_192742.jpg" class="card-img">
             <img src="./IMG_20221009_185911.jpg" class="card-img">
-            <img src="./IMG_20221009_191029.jpg" class="card img">
-            <img src="./IMG_20221009_191507.jpg" class="card-img">
-            <img src="./IMG_20221009_192616.jpg" class="card-img">
-            <img src="./IMG_20221009_192616.jpg" class="card-img">
-            <img src="./IMG_20221009_192649.jpg" class="card img">
-            <img src="./IMG_20221009_192742.jpg" class="card-img">
-            <img src="./IMG_20221009_193327.jpg" class="card-img">
-            <img src="./IMG_20221009_161608.jpg" class="card img">
-            <img src="./IMG_20221009_175021.jpg" class="card-img">
-            <img src="./IMG_20221009_175021.jpg" class="card-img">
-            <img src="./IMG_20221009_182900.jpg" class="card img">
-            <img src="./IMG_20221009_185911.jpg" class="card-img">
-            <img src="./IMG_20221009_161608.jpg" class="card-img">
+        </div>
+    </div>
+    <div class="card">
+        <div class="imge">
             <img src="./IMG_20221009_175021.jpg" class="card img">
-            <img src="./IMG_20221009_192742.jpg" class="card-img">
-            <img src="./IMG_20221009_185911.jpg" class="card-img">
-            <img src="./IMG_20221009_191029.jpg" class="card img">
             <img src="./IMG_20221009_191507.jpg" class="card-img">
             <img src="./IMG_20221009_192616.jpg" class="card-img">
             <img src="./IMG_20221009_192616.jpg" class="card-img">
-            <img src="./IMG_20221009_192649.jpg" class="card img">
-            <img src="./IMG_20221009_192742.jpg" class="card-img">
-            <img src="./IMG_20221009_193327.jpg" class="card-img">
-            <img src="./IMG_20221009_161608.jpg" class="card img">
-            <img src="./IMG_20221009_175021.jpg" class="card-img">
-            <img src="./IMG_20221009_175021.jpg" class="card-img">
-            <img src="./IMG_20221009_182900.jpg" class="card img">
-            <img src="./IMG_20221009_185911.jpg" class="card-img">
+
+        </div> 
+    </div>
+   <div class="card">
+    <div class="imge">
+        <img src="./IMG_20221009_161608.jpg" class="card-img">
+        <img src="./IMG_20221009_175021.jpg" class="card img">
+        <img src="./IMG_20221009_192742.jpg" class="card-img">
+        <img src="./IMG_20221009_185911.jpg" class="card-img">
+
+    </div> 
    </div>
+    <div class="card">
+        <div class="imge">
+            <img src="./IMG_20221009_161608.jpg" class="card-img">
+            <img src="./IMG_20221009_175021.jpg" class="card img">
+            <img src="./IMG_20221009_192742.jpg" class="card-img">
+            <img src="./IMG_20221009_185911.jpg" class="card-img">
+        </div>  
+    </div>
+    
+    <div class="card">
+        <div class="imge">
+            <img src="./IMG_20221009_175021.jpg" class="card img">
+            <img src="./IMG_20221009_191507.jpg" class="card-img">
+            <img src="./IMG_20221009_192616.jpg" class="card-img">
+            <img src="./IMG_20221009_192616.jpg" class="card-img">
+        </div>
+    </div>
+   
+    <div class="card">
+        <div class="imge">
+            <img src="./IMG_20221009_175021.jpg" class="card-img">
+            <img src="./IMG_20221009_175021.jpg" class="card-img">
+            <img src="./IMG_20221009_175021.jpg" class="card img">
+            <img src="./IMG_20221009_185911.jpg" class="card-img">
+        </div>
+    </div>   
 </body>
 </html>
